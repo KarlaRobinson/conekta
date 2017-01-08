@@ -1,0 +1,4 @@
+<h1> Check SPEI Charge Status</h1>
+<h3><%="El cargo por #{@charge.amount/100} pesos vía SPEI, tiene un status #{@charge.status}" %></h3>
+<p><%= @charge.inspect %></p>
+<h2> The Clabe to transfer <%= @charge.amount/100 %> pesos is: <%=@charge.payment_method.clabe%></h2>

@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root 'static_pages#home'
-  get  '/card_form',          to: 'static_pages#card_form'
-  post '/charge',          to: 'static_pages#charge'
+  get  '/credit_form',          to: 'static_pages#credit_form'
+  post '/credit',          to: 'static_pages#credit'
+  get  '/spei_form',          to: 'static_pages#spei_form'
+  post '/spei',          to: 'static_pages#spei'
 end
