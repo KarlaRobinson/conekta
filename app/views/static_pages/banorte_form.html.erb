@@ -1,0 +1,11 @@
+<h1>Generar Cargo con Banorte</h1>
+<%= form_tag('/banorte', id: 'card-form') do %>
+  <span class="card-errors"></span>
+  <div class="form-row">
+    <label>
+      <span>Cargo en Centavos</span>
+      <input type="text" size="10" name="chargeInCents"/>
+    </label>
+  </div>
+  <button type="submit">Pagar ahora!</button>
+<% end %>
