@@ -2,11 +2,11 @@
 
 Este es un app creado para replicar las diferentes formas de pago con Conekta de forma muy basico.
 
-Dentro del app puedas hacer pagos con 6 diferentes tipo de pago en modo de prueba y con informacion predeterminado:
+Dentro del app puedas hacer pagos con 6 diferentes tipos de pago en modo de prueba y con informacion predeterminado:
 
 * Tarjeta de Credito
 
-* Effectivo con Oxxo
+* Efectivo con Oxxo
 
 * SPEI
 
