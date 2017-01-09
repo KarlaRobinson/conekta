@@ -22,4 +22,6 @@ Pasos proximos para hacer que el app sea mas realistico:
 
 * Dejar que el controlador acepta la informacion ingresado por el usuario
 
-* Crear cuentas para los usuarios, con el cual relacionar los pagos ondemand y de subscripcion
+* Crear cuentas para los usuarios
+
+* Relacionar los pagos ondemand y de subscripcion con el current_user
