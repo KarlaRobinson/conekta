@@ -1,7 +1,10 @@
 <h1>NegocioKarla</h1>
 <p>Conekta Test: Home Page</p>
-<%= link_to "Comprar con tarjeta de credito", credit_form_path, class: 'btn btn-lg btn-default' %>
-<%= link_to "Comprar con SPEI", spei_form_path, class: 'btn btn-lg btn-default' %>
-<%= link_to "Comprar con effectivo", cash_form_path, class: 'btn btn-lg btn-default' %>
-<%= link_to "Comprar con Banorte", banorte_form_path, class: 'btn btn-lg btn-default' %>
-<%#= link_to "Comprar con ondemand", ondemand_form_path, class: 'btn btn-lg btn-default' %>
+<ul>
+	<li><%= link_to "Comprar con tarjeta de credito", credit_form_path, class: 'btn btn-lg btn-default' %></li>
+	<li><%= link_to "Comprar con SPEI", spei_form_path, class: 'btn btn-lg btn-default' %></li>
+	<li><%= link_to "Comprar con effectivo", cash_form_path, class: 'btn btn-lg btn-default' %></li>
+	<li><%= link_to "Comprar con Banorte", banorte_form_path, class: 'btn btn-lg btn-default' %></li>
+	<li><%= link_to "Comprar con ondemand", ondemand_form_path, class: 'btn btn-lg btn-default' %></li>
+	<li><%= link_to "Comprar por subscription", subscription_form_path, class: 'btn btn-lg btn-default' %></li>
+</ul>
