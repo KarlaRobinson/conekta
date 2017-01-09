@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este es un app creado para replicar las diferentes formas de pago con Conekta de forma muy basico.
 
-Things you may want to cover:
+Dentro del app puedas hacer pagos con 6 diferentes tipo de pago en modo de prueba y con informacion predeterminado:
 
-* Ruby version
+* Tarjeta de Credito
 
-* System dependencies
+* Effectivo con Oxxo
 
-* Configuration
+* SPEI
 
-* Database creation
+* Banorte
 
-* Database initialization
+* ondemand
 
-* How to run the test suite
+* subscripcion
 
-* Services (job queues, cache servers, search engines, etc.)
+Pasos proximos para hacer que el app sea mas realistico:
 
-* Deployment instructions
+* Crear articulos para comprar
 
-* ...
+* Dejar que el controlador acepta la informacion ingresado por el usuario
+
+* Crear cuentas para los usuarios, con el cual relacionar los pagos ondemand y de subscripcion
